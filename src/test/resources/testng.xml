@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BankKataTest">
+
+	<test name="TDD Test">
+		<packages>
+			<package name="com.github.yassin.bankkata.business.domain.tdd.*" />
+		</packages>
+	</test>
+
+	<test name="BDD Test" junit="true">
+		<packages>
+			<package name="com.github.yassin.bankkata.business.domain.bdd.*" />
+		</packages>
+	</test>
+
+</suite>
